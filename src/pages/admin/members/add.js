@@ -263,7 +263,7 @@ export default function AddMember() {
                 </label>
               </div>
               <p className="text-sm text-gray-500 mt-1">
-                Inactive members won't be counted in active statistics
+                Inactive members wont be counted in active statistics
               </p>
             </div>
           </div>

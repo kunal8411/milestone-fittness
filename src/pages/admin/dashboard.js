@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 export default function Dashboard() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -9,7 +8,7 @@ export default function Dashboard() {
   const [stats, setStats] = useState(null);
   const [recentMembers, setRecentMembers] = useState([]);
   const [error, setError] = useState(null);
-  const [monthlyData, setMonthlyData] = useState([]);
+  const [, setMonthlyData] = useState([]);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   // Check authentication and load dashboard data

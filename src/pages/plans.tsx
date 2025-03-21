@@ -193,7 +193,7 @@ export default function Plans() {
                   Can I cancel my membership?
                 </h3>
                 <p className="text-gray-600">
-                  You can cancel your membership with 30 days' notice. For
+                  You can cancel your membership with 30 days notice. For
                   1-month memberships, no notice is required if you choose not
                   to renew.
                 </p>
