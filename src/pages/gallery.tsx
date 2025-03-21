@@ -12,7 +12,7 @@ const categories = ['All', 'Gym', 'Classes', 'Events', 'Equipment'];
 const galleryImages = [
   {
     id: 1,
-    src: '/images/gallery/gym1enhance.webp',
+    src: '/images/gym1enhance.webp',
     alt: 'Modern gym interior with equipment',
     category: 'Gym',
     title: 'State-of-the-art Facility'

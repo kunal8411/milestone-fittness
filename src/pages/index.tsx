@@ -485,7 +485,7 @@ const testimonialsPreview = [
 const membershipPreview = [
   {
     name: "1 Month",
-    price: "1799",
+    price: "₹1799",
     features: [
       "Full access to gym equipment",
       "2 Free personal training sessions",
@@ -495,7 +495,7 @@ const membershipPreview = [
   },
   {
     name: "3 Months",
-    price: "5999",
+    price: "₹5999",
     features: [
       "Full access to gym equipment",
       "4 Free personal training sessions",

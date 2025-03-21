@@ -45,11 +45,11 @@ const Footer = () => {
                   Our Trainers
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/gallery" className="hover:text-red-500 transition-colors">
                   Gallery
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/testimonials" className="hover:text-red-500 transition-colors">
                   Testimonials
