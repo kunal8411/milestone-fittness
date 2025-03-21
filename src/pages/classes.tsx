@@ -34,7 +34,7 @@ export default function Classes() {
           <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 bg-gradient-to-r from-red-900/70 to-gray-900/70 z-10"></div>
             <img
-              src="/images/gym3.jpg"
+              src="/images/gym3enhance.jpg"
               alt="Fitness classes"
               className="w-full h-full object-cover"
               onError={(e) => {

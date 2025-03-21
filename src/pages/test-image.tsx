@@ -7,12 +7,12 @@ export default function TestImage() {
   const [imageStatus, setImageStatus] = useState<Record<string, boolean>>({});
 
   const testImages = [
-    '/images/gym1.jpg',
-    '/images/gym2.jpg',
-    '/images/gym3.jpg',
+    '/images/gym1enhance.webp',
+    '/images/gym2enhance.webp',
+    '/images/gym3enhance.jpg',
     '/images/gym4.jpg',
     // Test with direct URL too
-    '/gym1.jpg',
+    '/gym1enhance.webp',
   ];
 
   const handleImageLoad = (path: string) => {

@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "framer-motion": "^12.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
     "next": "15.2.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "recharts": "^2.15.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

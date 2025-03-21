@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 
 // Array of gym images
 const gymImages = [
-  '/images/gym1.jpg',
-  '/images/gym2.jpg',
-  '/images/gym3.jpg',
+  '/images/gym1enhance.webp',
+  '/images/gym2enhance.webp',
+  '/images/gym3enhance.jpg',
   '/images/gym4.jpg',
 ];
 

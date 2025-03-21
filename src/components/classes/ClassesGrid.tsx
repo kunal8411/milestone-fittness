@@ -26,7 +26,7 @@ const ClassesGrid: React.FC<ClassesGridProps> = ({ filter, limit }) => {
   // Map of existing class images
   const classImages: Record<string, string> = {
     'HIIT': '/images/classes/classHiit.jpg',
-    'Yoga': '/images/classes/yogaclass.jpeg',
+    'Yoga': '/images/classes/yeoganew.jpg',
     'Spin Class': '/images/classes/spinclass.jpg',
     'Strength Training': '/images/classes/strengthTraining.jpeg',
     'Pilates': '/images/classes/pilates.jpeg',

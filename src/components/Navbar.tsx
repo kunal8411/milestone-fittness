@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
+import AuthButtons from './AuthButtons';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,17 +46,22 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
-            {navLinks.map((link) => (
-              <Link 
-                key={link.name} 
-                href={link.path}
-                className="text-white hover:text-red-500 transition-colors"
-              >
-                {link.name}
-              </Link>
-            ))}
-          </nav>
+          <div className="hidden md:flex items-center">
+            <nav className="flex space-x-8 mr-8">
+              {navLinks.map((link) => (
+                <Link 
+                  key={link.name} 
+                  href={link.path}
+                  className="text-white hover:text-red-500 transition-colors"
+                >
+                  {link.name}
+                </Link>
+              ))}
+            </nav>
+            
+            {/* Authentication Buttons (Desktop) */}
+            <AuthButtons />
+          </div>
 
           {/* Mobile Menu Button */}
           <button 
@@ -111,6 +117,9 @@ const Navbar = () => {
                     {link.name}
                   </Link>
                 ))}
+                
+                {/* Authentication Buttons (Mobile) */}
+                <AuthButtons isMobile={true} />
               </nav>
             </div>
           </motion.div>
