@@ -193,7 +193,7 @@ export default function Testimonials() {
                         />
                       </div>
                       <div>
-                        <h3 className="text-lg font-bold">{testimonial.name}</h3>
+                        <h3 className="text-lg font-bold text-gray-600 ">{testimonial.name}</h3>
                         <p className="text-gray-500">Age: {testimonial.age}</p>
                         <StarRating rating={testimonial.rating} />
                       </div>

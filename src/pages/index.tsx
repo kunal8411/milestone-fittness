@@ -30,7 +30,7 @@ export default function Home() {
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-600 ">
                 Why Choose Milestone Fitness?
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
@@ -51,7 +51,7 @@ export default function Home() {
                   className="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow"
                 >
                   <div className="text-red-600 mb-4">{feature.icon}</div>
-                  <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
+                  <h3 className="text-xl font-bold mb-3 text-gray-600 ">{feature.title}</h3>
                   <p className="text-gray-600">{feature.description}</p>
                 </motion.div>
               ))}
@@ -95,7 +95,7 @@ export default function Home() {
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-600 ">
                 Meet Our Expert Trainers
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
@@ -127,7 +127,7 @@ export default function Home() {
         <section className="py-20 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-600 ">
                 Success Stories
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
@@ -287,7 +287,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-600 ">
                   Get In Touch
                 </h2>
                 <p className="text-gray-600 mb-8">
@@ -319,7 +319,7 @@ export default function Home() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold mb-1">Our Location</h3>
+                      <h3 className="text-lg font-bold mb-1 text-gray-600 ">Our Location</h3>
                       <p className="text-gray-600">
                         123 Fitness Street, Workout City
                       </p>
@@ -344,7 +344,7 @@ export default function Home() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold mb-1">Phone Number</h3>
+                      <h3 className="text-lg font-bold mb-1 text-gray-600 ">Phone Number</h3>
                       <p className="text-gray-600">+1 (555) 123-4567</p>
                     </div>
                   </div>
@@ -366,7 +366,7 @@ export default function Home() {
                       </svg>
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold mb-1">Email Address</h3>
+                      <h3 className="text-lg font-bold mb-1 text-gray-600 ">Email Address</h3>
                       <p className="text-gray-600">info@milestonefitness.com</p>
                     </div>
                   </div>

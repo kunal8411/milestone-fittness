@@ -141,7 +141,7 @@ export default function Trainers() {
                     />
                   </div>
                   <div className="p-6">
-                    <h2 className="text-2xl font-bold mb-1">{trainer.name}</h2>
+                    <h2 className="text-2xl font-bold mb-1 text-gray-600 ">{trainer.name}</h2>
                     <p className="text-red-600 font-semibold mb-4">{trainer.role}</p>
                     
                     <h3 className="text-sm font-semibold text-gray-500 mb-2">SPECIALIZATIONS</h3>

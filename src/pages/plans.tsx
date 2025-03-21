@@ -120,17 +120,17 @@ export default function Plans() {
                       plan.highlight ? "bg-red-50" : "bg-white"
                     }`}
                   >
-                    <h3 className="text-xl font-bold mb-2">{plan.name}</h3>
+                    <h3 className="text-xl font-bold mb-2 text-gray-600 ">{plan.name}</h3>
                     <p className="text-gray-600 mb-4">{plan.description}</p>
                     <div className="mb-6">
-                      <span className="text-4xl font-bold">{plan.price}</span>
+                      <span className="text-4xl font-bold text-gray-600 ">{plan.price}</span>
                       <span className="text-gray-500">/period</span>
                     </div>
                     <ul className="space-y-3 mb-8">
                       {plan.features.map((feature, i) => (
-                        <li key={i} className="flex items-start">
+                        <li key={i} className="flex items-start text-gray-600 ">
                           <svg
-                            className="w-5 h-5 text-green-500 mr-2 mt-0.5"
+                            className="w-5 h-5 text-green-500 mr-2 mt-0.5 "
                             fill="currentColor"
                             viewBox="0 0 20 20"
                           >
@@ -165,7 +165,7 @@ export default function Plans() {
         {/* Additional Information */}
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8 text-center">
+            <h2 className="text-3xl font-bold mb-8 text-center text-gray-600 ">
               Frequently Asked Questions
             </h2>
             <div className="max-w-3xl mx-auto space-y-6">
