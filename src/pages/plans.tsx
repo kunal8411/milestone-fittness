@@ -170,7 +170,7 @@ export default function Plans() {
             </h2>
             <div className="max-w-3xl mx-auto space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-3">
+                <h3 className="text-xl font-semibold mb-3 text-gray-600 ">
                   Can I freeze my membership?
                 </h3>
                 <p className="text-gray-600">
@@ -180,7 +180,7 @@ export default function Plans() {
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-3">
+                <h3 className="text-xl font-semibold mb-3 text-gray-600 ">
                   Is there a joining fee?
                 </h3>
                 <p className="text-gray-600">
@@ -189,7 +189,7 @@ export default function Plans() {
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold mb-3">
+                <h3 className="text-xl font-semibold mb-3 text-gray-600 ">
                   Can I cancel my membership?
                 </h3>
                 <p className="text-gray-600">
