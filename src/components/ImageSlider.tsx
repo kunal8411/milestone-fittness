@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react';
 
 // Array of gym images
 const gymImages = [
-  '/images/gym1enhance.webp',
-  '/images/gym2enhance.webp',
-  '/images/gym3enhance.jpg',
-  '/images/gym4.jpg',
+  '/images/gymdemo1.jpg',
+  '/images/gymdemo2.jpg',
+  '/images/gymdemo3.jpg',
+  '/images/gymdemo4.jpg',
 ];
 
 const ImageSlider = () => {

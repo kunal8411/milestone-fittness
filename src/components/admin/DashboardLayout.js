@@ -196,7 +196,7 @@ export default function DashboardLayout({ children, title = 'Dashboard' }) {
                   <span className="mr-2 text-sm">Admin</span>
                   <div className="w-8 h-8 overflow-hidden rounded-full">
                     <img 
-                      src="/images/gym1enhance.webp" 
+                      src="/images/gymdemo1.jpg" 
                       alt="Admin" 
                       className="object-cover w-full h-full" 
                     />

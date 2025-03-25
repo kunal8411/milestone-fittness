@@ -28,7 +28,7 @@ export default function AdminHeader({ title }) {
               <img 
                 src="/images/admin-avatar.png" 
                 alt="Admin" 
-                onError={(e) => { e.target.src = '/images/gym1enhance.webp' }} 
+                onError={(e) => { e.target.src = '/images/gymdemo1.jpg' }} 
                 className="object-cover w-full h-full" 
               />
             </div>

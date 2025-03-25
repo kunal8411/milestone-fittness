@@ -12,7 +12,7 @@ const categories = ['All', 'Gym', 'Classes', 'Events', 'Equipment'];
 const galleryImages = [
   {
     id: 1,
-    src: '/images/gym1enhance.webp',
+    src: '/images/gymdemo1.jpg',
     alt: 'Modern gym interior with equipment',
     category: 'Gym',
     title: 'State-of-the-art Facility'
@@ -40,7 +40,7 @@ const galleryImages = [
   },
   {
     id: 5,
-    src: '/images/gallery/gym2enhance.webp',
+    src: '/images/gallery/gymdemo2.jpg',
     alt: 'Cardio zone with treadmills',
     category: 'Gym',
     title: 'Cardio Zone'
@@ -61,7 +61,7 @@ const galleryImages = [
   },
   {
     id: 8,
-    src: '/images/gallery/gym3enhance.jpg',
+    src: '/images/gallery/gymdemo3.jpg',
     alt: 'Stretching area',
     category: 'Gym',
     title: 'Stretching Zone'
@@ -82,7 +82,7 @@ const galleryImages = [
   },
   {
     id: 11,
-    src: '/images/gallery/gym4.jpg',
+    src: '/images/gallery/gymdemo4.jpg',
     alt: 'Functional training area',
     category: 'Gym',
     title: 'Functional Training Zone'
